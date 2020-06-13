@@ -1,0 +1,18 @@
+@import "variables",
+"config",
+"utilities";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
