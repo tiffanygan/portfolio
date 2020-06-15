@@ -1,0 +1,27 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "portfolio",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo 'Hello World'",
+        "sass": "node-sass -w ./sass -o ./dist/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tiffanygan/portfolio.git"
+    },
+    "keywords": [
+        "portfolio",
+        "SASS"
+    ],
+    "author": "Tiffany Gan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tiffanygan/portfolio/issues"
+    },
+    "homepage": "https://github.com/tiffanygan/portfolio#readme",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}

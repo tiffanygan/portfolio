@@ -1,0 +1,13 @@
+@function set-text-color($bc, $dc, $lc) {
+    @if (lightness($bc)>50) {
+        @return $dc
+    }
+    @else {
+        @return $lc
+    }
+}
+
+@mixin text-color($bcolor, $dcolor, $lcolor) {
+    background-color: $bcolor;
+    color: set-text-color($bcolor, $dcolor, $lcolor);
+}
